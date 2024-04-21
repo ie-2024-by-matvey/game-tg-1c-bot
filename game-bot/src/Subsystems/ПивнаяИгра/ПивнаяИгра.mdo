@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5267c627-954e-42b7-bf1f-2e1bdce6d64c">
+  <name>ПивнаяИгра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пивная игра</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.СессияПивнойИгры</content>
+</mdclass:Subsystem>
