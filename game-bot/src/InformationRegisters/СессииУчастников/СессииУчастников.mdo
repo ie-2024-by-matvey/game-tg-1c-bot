@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="721f2cc7-c476-45a6-bacd-c7cc3899205d">
+  <producedTypes>
+    <selectionType typeId="34b2f61d-25d7-41b2-b269-8bfa3802d4b7" valueTypeId="30c71724-9db2-45c1-8199-fc38bdedec2a"/>
+    <listType typeId="85c8431d-207b-41c3-889d-c0db0c9ef562" valueTypeId="bfec4822-33da-4276-a2da-ec9080f6aa51"/>
+    <managerType typeId="edee5706-dcaf-42ff-917b-f7f0d975746e" valueTypeId="717deeb9-058d-4aa8-8fe5-47192a1fb8ad"/>
+    <recordSetType typeId="e42026d9-d6a1-4a72-be04-f0fd97dd7426" valueTypeId="b0ee0954-9998-459d-b99c-21d87b4d1d2e"/>
+    <recordKeyType typeId="664d118d-9b0b-4db9-bdd6-413310d60b16" valueTypeId="e5b17132-dcb4-4954-957b-0bd4e730a886"/>
+    <recordType typeId="de5abc4d-d4bd-4dd3-a3ca-4c252407668b" valueTypeId="98f21a49-da81-46de-8a60-802cb082724d"/>
+    <recordManagerType typeId="c646796c-8a77-4c88-bbe9-0e78d4b81eb9" valueTypeId="b0b813d4-6f07-4ea8-ab23-89608c57a2b4"/>
+  </producedTypes>
+  <name>СессииУчастников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессии участников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5a54d6bd-a27e-43f5-9f78-240bc4d7f172">
+    <name>Сессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СессияПивнойИгры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e49d92bd-b04d-4278-b59a-e2c25743f2bd">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

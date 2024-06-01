@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="300f3b8f-4823-4110-9086-a395817253e3">
+  <producedTypes>
+    <refType typeId="1a2aafac-cb27-48db-8cd8-02230bb385d0" valueTypeId="d9f32093-f0e3-458f-966a-5c43b71bcbd3"/>
+    <listType typeId="f7e6769c-fb24-4867-adb9-a4cf7f26727f" valueTypeId="3381463c-ca32-4954-ba08-31876d3bc2cd"/>
+    <managerType typeId="83239f1c-9b79-482e-864a-b0fcd1eac522" valueTypeId="fc059a3f-0fea-4847-82e8-40b0d9ae2e98"/>
+  </producedTypes>
+  <name>СтатусИгровойСессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус игровой сессии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e22453b0-f2cb-4625-b9aa-f5816cb19315">
+    <name>ОжидаетЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает запуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="696a1d27-33e9-4428-8078-04ac48fcffcc">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfb6bb72-5e33-4e6e-9534-7b9928bd8899">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

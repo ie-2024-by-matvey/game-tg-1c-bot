@@ -26,4 +26,11 @@
       <value>Простая викторина</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="91727cc9-95f8-4828-af6f-eebd159c9933">
+    <name>ПивнаяИгра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пивная игра</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

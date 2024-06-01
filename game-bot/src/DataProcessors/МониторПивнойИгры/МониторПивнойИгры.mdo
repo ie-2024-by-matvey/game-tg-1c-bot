@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4769884-dd7e-4e1a-ab74-4c448d5b7d32">
+  <producedTypes>
+    <objectType typeId="e34816f3-f553-42cc-a20a-3a2f39ddfaf9" valueTypeId="1c8011c3-9870-41bb-8809-60b7832646c2"/>
+    <managerType typeId="cc548eea-84a5-4d46-af04-6336a00da128" valueTypeId="8aaa6fd9-142f-400e-9466-69928f0071c3"/>
+  </producedTypes>
+  <name>МониторПивнойИгры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор пивной игры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторПивнойИгры.Form.Форма</defaultForm>
+  <forms uuid="088d20a9-af9a-4a15-ac9d-76b26d8464fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

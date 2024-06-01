@@ -8,4 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.СессияПивнойИгры</content>
+  <content>InformationRegister.СессииУчастников</content>
+  <content>DataProcessor.МониторПивнойИгры</content>
+  <content>Constant.ЗапретСтартаНовыхСессийПивнойИгры</content>
 </mdclass:Subsystem>

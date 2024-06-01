@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5360c31b-38f3-4028-863c-990d8eb5db66">
+  <producedTypes>
+    <managerType typeId="864b7e0d-6c2d-493b-b178-2448e3fdc8c9" valueTypeId="27dc1747-1833-4f2a-ab75-c6f0436e9b71"/>
+    <valueManagerType typeId="d22d68d7-12cf-4817-8bfd-67a8bf4ce2ac" valueTypeId="0f1b4d54-8c07-448a-aa55-726812e4923f"/>
+    <valueKeyType typeId="5b022901-4ef4-4e8b-bac1-a711fb09b946" valueTypeId="e3d97818-138a-4538-9095-36ebb107379f"/>
+  </producedTypes>
+  <name>ЗапретСтартаНовыхСессийПивнойИгры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет старта новых сессий пивной игры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

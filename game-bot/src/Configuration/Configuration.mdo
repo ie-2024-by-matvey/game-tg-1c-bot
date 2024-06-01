@@ -54,14 +54,19 @@
   <commonModules>CommonModule.СериализацияДанных</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
+  <commonModules>CommonModule.ТелеграмПивнаяИгра</commonModules>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
   <constants>Constant.ТокенТелеграмБота</constants>
+  <constants>Constant.ЗапретСтартаНовыхСессийПивнойИгры</constants>
   <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
   <catalogs>Catalog.ОчередьОбработкиСообщений</catalogs>
   <catalogs>Catalog.ТелеграмЧаты</catalogs>
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <documents>Document.СессияПивнойИгры</documents>
   <enums>Enum.РежимРаботыБота</enums>
+  <enums>Enum.СтатусИгровойСессии</enums>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
+  <dataProcessors>DataProcessor.МониторПивнойИгры</dataProcessors>
+  <informationRegisters>InformationRegister.СессииУчастников</informationRegisters>
 </mdclass:Configuration>
